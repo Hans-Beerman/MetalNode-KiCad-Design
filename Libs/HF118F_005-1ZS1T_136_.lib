@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model HF118F_005-1ZS1T_136_
+#/1538629/274308/2.46/5/4/Relay or Contactor
+DEF HF118F_005-1ZS1T_136_ K 0 30 Y Y 1 F N
+F0 "K" 1150 300 50 H V L CNN
+F1 "HF118F_005-1ZS1T_136_" 1150 200 50 H V L CNN
+F2 "HF118F0051ZS1T136" 1150 100 50 H I L CNN
+F3 "https://docs-emea.rs-online.com/webdocs/1663/0900766b81663e9a.pdf" 1150 0 50 H I L CNN
+F4 "Hongfa Europe GMBH SPST Non-Latching Relay PCB Mount, 5V dc Coil, 10 A, 10 A" 1150 -100 50 H I L CNN "Description"
+F5 "12.8" 1150 -200 50 H I L CNN "Height"
+F6 "Hongfa" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "HF118F/005-1ZS1T(136)" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "HF118F/005-1ZS1T(136)" 1150 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 1150 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 1150 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 1150 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X COIL_1 1 1300 0 200 L 50 50 0 0 P
+X COIL_2 2 0 0 200 R 50 50 0 0 P
+X COM 3 0 -100 200 R 50 50 0 0 P
+X N.O. 4 1300 -200 200 L 50 50 0 0 P
+X N.C. 5 1300 -100 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
